@@ -1,0 +1,282 @@
+
+@media (max-width: 992px)
+{
+    .bxslider
+    {
+        display: none;
+    }
+    .logo
+    {
+        position: static !important;    
+    }
+    .swap
+    {
+        float: right !important;
+        transform: rotate(96deg);    
+    }
+    .card
+    {
+        position: static !important;
+        margin-top:0 !important;
+    }
+
+    .shape
+    {
+        border-bottom: 80px solid orange !important;  
+        width:970px !important;
+    }
+    #amenities
+    {
+    background-image: none;    
+    }
+
+}
+.shape
+{
+    border-bottom: 50px solid orange;
+    border-left: 50px solid transparent;
+    height:0;
+    width: 768px;
+    vertical-align: middle;
+}
+.shape1
+{
+    border-bottom: 56px solid black;
+    border-left: 50px solid transparent;
+    height: 0;
+    width: 997px;
+    vertical-align: middle;
+    font-size:19px;
+}
+.login
+{
+    font-size:18px;
+    color:white;
+}
+
+.phone
+{
+color:white;
+}
+
+.logo
+{
+    position: absolute;
+    top: -75px;
+    left: 41px;
+    z-index: 100;
+    width: 100%;
+}
+
+.color
+{
+    background-color: black;    
+}
+
+.bx-controls
+{
+    display: none;
+}
+
+.card
+{
+    margin-top:-6em;
+    margin-left:auto;
+    margin-right:auto;
+    width: 80%;
+    padding-left: 5px !important;
+    padding-bottom: 5px !important;
+    padding-right: 5px !important;
+    padding-top: 5px !important;
+    align-items: center;
+    position:relative;
+    height:auto;
+    font-size:20px;
+
+}
+
+.btn
+{
+    background-color:orange;
+    color:white;
+}
+
+.booking
+{
+    font-size:30px;
+    color:black;    
+}
+
+.shape2
+{
+    width: 408px;
+    height: 304px;
+    border: 6px solid orange;
+    position: absolute;
+    top: 12px;
+    left: 83px;
+}
+.shape3
+{
+    width: 169px;
+    height: 63px;
+    background-color: orange;
+    position: absolute;
+    top: -3px;
+    left: 452px;
+}
+.cal
+{
+    margin-top: -30px;
+    margin-right: 10px;    
+}
+
+.navbar
+{
+    z-index: 100;    
+}
+
+
+.shape4
+{
+    height: 150px;
+    width: 150px;
+    border: 2px solid;
+    background-color: #fe8d00;
+    border-radius: 50%;
+    margin-left:65px;
+    margin-top:5px;
+    border-color:white;
+}
+
+.shape5
+{
+    height: 150px;
+    width: 150px;
+    border: 2px solid;
+    background-color: #ff9a1d;
+    border-radius: 50%;
+    margin-left:65px;
+    margin-top:5px;
+    border-color:white;
+}
+
+.shape6
+{
+    height: 150px;
+    width: 150px;
+    border: 2px solid;
+    background-color: #ffab42;
+    border-radius: 50%;
+    margin-left:65px;
+    margin-top:5px;
+    border-color:white;
+}
+
+.shape7
+{
+    height: 150px;
+    width: 150px;
+    border: 2px solid;
+    background-color: #fe8d00;
+    border-radius: 50%;
+    margin-left:5px;
+    margin-top:10px;
+    border-color:white;
+}
+
+#amenities
+{
+    background-image: url('../images/bm.png');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-height:1500px;
+}
+
+.text
+{
+    padding-bottom: 100px;
+}
+
+.pollachi
+{
+    margin-top: -2px;
+    margin-left: 5px;
+    color: white;
+    position: absolute;
+}
+.banglore
+{
+    margin-top: -2px;
+    margin-left: 5px;
+    color: white;
+    position: absolute;
+}
+.chennai
+{
+    margin-top: -2px;
+    margin-left: 5px;
+    color: white;
+    position: absolute;
+}
+.shape10
+{
+    width: 273px;
+    height: 201px;
+    border: 6px solid orange;
+    position: absolute;
+    top: 35px;
+    left: 83px;
+}
+
+.shape11
+{
+    width: 273px;
+    height: 201px;
+    border: 6px solid orange;
+    position: absolute;
+    top: 35px;
+    left: -6px;
+}
+.shape12
+{
+    width: 273px;
+    height: 201px;
+    border: 6px solid orange;
+    position: absolute;
+    top: 35px;
+    left: 83px;
+}
+
+.shape13
+{
+    width: 273px;
+    height: 201px;
+    border: 6px solid orange;
+    position: absolute;
+    top: 35px;
+    left: -6px;
+}
+
+.route
+{
+margin-left:62px;    
+}
+
+.routet
+{
+margin-left:5px;    
+}
+
+.routeimg
+{
+margin-left:29px;    
+}
+
+.footer
+{
+background-color:orange;
+font-size:15px;
+color:white;
+}
