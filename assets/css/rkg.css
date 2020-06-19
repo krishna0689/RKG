@@ -9,11 +9,6 @@
     {
         position: static !important;    
     }
-    .swap
-    {
-        float: right !important;
-        transform: rotate(96deg);    
-    }
     .card
     {
         position: static !important;
@@ -23,11 +18,24 @@
     .shape
     {
         border-bottom: 80px solid orange !important;  
-        width:970px !important;
+    }
+    .shape1
+    {
+        border-bottom: 80px solid black !important; 
+        width:auto;
+        display:block;
     }
     #amenities
     {
-    background-image: none;    
+        background-image: none;    
+    }
+    .text
+    {
+        display: none;    
+    }
+    .amini
+    {
+        display:none;   
     }
 
 }
@@ -36,15 +44,16 @@
     border-bottom: 50px solid orange;
     border-left: 50px solid transparent;
     height:0;
-    width: 768px;
+    width: 100%;
     vertical-align: middle;
+    font-size:17px;
 }
 .shape1
 {
     border-bottom: 56px solid black;
     border-left: 50px solid transparent;
     height: 0;
-    width: 997px;
+    width: 100%;
     vertical-align: middle;
     font-size:19px;
 }
@@ -56,7 +65,7 @@
 
 .phone
 {
-color:white;
+    color:white;
 }
 
 .logo
@@ -80,7 +89,7 @@ color:white;
 
 .card
 {
-    margin-top:-6em;
+    margin-top:-7em;
     margin-left:auto;
     margin-right:auto;
     width: 80%;
@@ -91,7 +100,7 @@ color:white;
     align-items: center;
     position:relative;
     height:auto;
-    font-size:20px;
+    font-size:19px;
 
 }
 
@@ -185,13 +194,18 @@ color:white;
     border-color:white;
 }
 
-#amenities
+@media (min-width: 992px)
 {
-    background-image: url('../images/bm.png');
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    max-height:1500px;
+    #amenities
+    {
+        background: url('../images/bm.png');
+        width: 100%;
+        height:600px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
 }
 
 .text
@@ -261,22 +275,27 @@ color:white;
 
 .route
 {
-margin-left:62px;    
+    margin-left:62px;    
 }
 
 .routet
 {
-margin-left:5px;    
+    margin-left:5px;    
 }
 
 .routeimg
 {
-margin-left:29px;    
+    margin-left:29px;    
 }
 
 .footer
 {
-background-color:orange;
-font-size:15px;
-color:white;
+    background-color:orange;
+    font-size:15px;
+    color:white;
+}
+
+.title
+{
+    color:black;    
 }
